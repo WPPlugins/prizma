@@ -1,0 +1,116 @@
+
+#prizma-post-meta-box input[type=text]{
+  width: 250px;
+}
+
+.prizma-widget-transform-yt-label {
+    float: right;
+    margin: 0 20px 0 0;
+}
+.prizma-widget-layout-label {
+  display: block;
+  background: url(img/MOSAIC.png) no-repeat center bottom;
+  padding: 0 0 90px 0;
+  width: 120px;
+}
+.prizma-widget-layout-label.sidebar{
+  background: url(img/SIDEBAR_TEXT_OVER.png) no-repeat center bottom; 
+  padding: 0 0 120px 0;
+}
+.prizma-widget-layout-label.FILMSTRIP {
+  background-image: url(img/FILMSTRIP.png);
+}
+.prizma-widget-layout-label.sidebar.FILMSTRIP {
+  background: url(img/SIDEBAR_TEXT.png) no-repeat center bottom;
+}
+.prizma-layout-warning{
+  border: 1px solid #dc3232;
+  background: #FFF;
+  font-size: 0.9em;
+  padding: 7px;
+  margin-top: 10px;
+  display: none;
+}
+.prizma-widget-radio-group{
+  display: inline-block;
+  text-align: center;
+}
+
+.prizma-widget-settings .form-table th, .dashboard-description th{
+  width: 335px;
+}
+table.dashboard-description {
+  padding: 10px;
+  width: 100%;
+  max-width: 560px;
+  background-color: #FEFEFE;
+  margin-top:20px;
+}
+.dashboard-description th {
+  vertical-align: top;
+  text-align: left;
+  padding: 20px 10px 5px 0;
+  line-height: 1.3;
+  font-weight: 600;
+  font-size:14px;
+}
+.dashboard-description th.prizma-dashboard-partner-id{
+  padding: 0 0 20px 0;
+}
+.dashboard-description td{
+  text-align:right;
+}
+.prizma-widget-settings .form-table input[type=text]{
+  width: 200px;
+}
+
+.prizma-widget-plugin-description{
+  display: block;
+  font-weight: normal;
+  font-size: 12px;
+}
+.logo-image{
+  background-image: url(img/prizma_for_wordpress.png);
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+a.dashboard-link {
+  padding: 15px;
+  background-color: #87BC30;
+  color: white;
+  text-decoration: none;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+  border: 1px solid #39883A;
+}
+a.dashboard-link:hover {
+  opacity: .8;
+}
+
+.prizma-spotlight-container label{
+  display: block;
+  margin: 10px 0 20px 0;
+}
+.prizma-spotlight-container label span{
+  display: inline-block;
+  width: 80px;
+  text-align: right;
+  padding-right: 5px;
+  max-width: 24%;
+  vertical-align: middle;
+  word-wrap: break-word;
+  font-size: 13px;
+}
+.prizma-spotlight-container input{
+  width: 300px;
+}
+.prizma-spotlight-container input.prizma-spotlight-error{
+  border-color: #F00;
+}
+i.prizma-spotlight-tinymce-icon {
+    background-image: url('img/prizma-spotlight-tinymce-icon.png');
+}
